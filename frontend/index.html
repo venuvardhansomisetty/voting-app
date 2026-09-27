@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VotePulse - Live Polling App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>🗳️ VotePulse</h1>
+      <p>Create polls, vote, and see live results instantly</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="create-poll">
+      <h2>✨ Create New Poll</h2>
+      <div class="form-group">
+        <input type="text" id="question" 
+          placeholder="Enter your poll question..." 
+          maxlength="200">
+      </div>
+      <div id="options-container">
+        <div class="option-group">
+          <input type="text" class="option-input" 
+            placeholder="Option 1" maxlength="100">
+        </div>
+        <div class="option-group">
+          <input type="text" class="option-input" 
+            placeholder="Option 2" maxlength="100">
+        </div>
+      </div>
+      <div class="btn-group">
+        <button id="add-option-btn" 
+          onclick="addOption()">+ Add Option</button>
+        <button id="create-poll-btn" 
+          onclick="createPoll()">🚀 Create Poll</button>
+      </div>
+      <p id="error-msg" class="error"></p>
+    </section>
+
+    <section class="polls-section">
+      <h2>📊 All Polls</h2>
+      <div id="polls-container">
+        <p class="no-polls">No polls yet. Create one above! 🎉</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

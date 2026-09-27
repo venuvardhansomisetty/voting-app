@@ -1,0 +1,44 @@
+{
+  "polls": [
+    {
+      "id": "3f392107-5394-47d8-9ccb-a6dad3a0913b",
+      "question": "what is your favourite movie",
+      "options": [
+        {
+          "text": "Bahubali 2",
+          "votes": 1
+        },
+        {
+          "text": "KGF 2",
+          "votes": 0
+        }
+      ],
+      "createdAt": "2026-04-21T18:00:00.303Z",
+      "voters": [
+        "voter_c8j4m63ki"
+      ]
+    },
+    {
+      "id": "18adf2d8-61b5-4ead-9b52-1731b9d915e7",
+      "question": "what is your favourite ipl team?",
+      "options": [
+        {
+          "text": "RCB",
+          "votes": 1
+        },
+        {
+          "text": "MI",
+          "votes": 0
+        },
+        {
+          "text": "SRH",
+          "votes": 0
+        }
+      ],
+      "createdAt": "2026-04-22T03:46:48.533Z",
+      "voters": [
+        "voter_c8j4m63ki"
+      ]
+    }
+  ]
+}
